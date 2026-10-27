@@ -122,10 +122,7 @@ cd buglens
 pip install -e .
 ```
 
-[Jump to Claude Installation](./AGENTS/CLAUDE.md)
 [Jump to Gemini Installation](./AGENTS/GEMINI.md)
-[Jump to Other Installation](./AGENTS/AGENTS.md)
-
 
 </details>
 
