@@ -112,9 +112,15 @@ Your AI reads the sheet **live** (not a CSV export — *live*), fetches the Snip
 ## Installation
 
 ```bash
+cd ~/qa-sheet-mcp-package
+source venv/bin/activate
+
 pip install git+https://github.com/iambilalshahid/buglens.git
 ```
 
+[Jump to Claude Installation](./AGENTS/CLAUDE.md)
+[Jump to Gemini Installation](./AGENTS/GEMINI.md)
+[Jump to Other Installation](./AGENTS/AGENTS.md)
 
 
 </details>
