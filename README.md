@@ -111,10 +111,15 @@ Your AI reads the sheet **live** (not a CSV export — *live*), fetches the Snip
 
 ## Installation
 
-```bash
-# Ubuntu pe hamesha venv use karo
-pip install git+https://github.com/iambilalshahid/buglens.git --break-system-packages
-
+# 1. Create venv
+python3 -m venv venv
+source venv/bin/activate
+# 2. Install from GitHub
+pip install git+https://github.com/iambilalshahid/buglens.git
+# 3. Or for local dev
+git clone https://github.com/iambilalshahid/buglens.git
+cd buglens
+pip install -e .
 ```
 
 [Jump to Claude Installation](./AGENTS/CLAUDE.md)

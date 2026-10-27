@@ -29,5 +29,3 @@ service-account*.json
 *.log
 .qa-sheet-mcp-history.json
 fix_history.json
-# agents
-GEMINI.md
