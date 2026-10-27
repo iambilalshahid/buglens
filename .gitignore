@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+
+# Venv
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Credentials - IMPORTANT
+credentials.json
+*_credentials.json
+*-d1d7c3225692.json
+ferrous-pattern-*.json
+service-account*.json
+.env
+.env.local
+
+# History & OS
+.DS_Store
+.vscode/
+.idea/
+*.log
+.qa-sheet-mcp-history.json
+fix_history.json
+# agents
+GEMINI.md
