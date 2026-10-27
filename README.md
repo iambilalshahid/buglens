@@ -112,9 +112,9 @@ Your AI reads the sheet **live** (not a CSV export — *live*), fetches the Snip
 ## Installation
 
 ```bash
-cd ~/qa-sheet-mcp-package
+# Ubuntu pe hamesha venv use karo
+python3 -m venv venv
 source venv/bin/activate
-
 pip install git+https://github.com/iambilalshahid/buglens.git
 ```
 
